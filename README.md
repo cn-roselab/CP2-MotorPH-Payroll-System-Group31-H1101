@@ -129,12 +129,5 @@ The application validates all user inputs and handles errors gracefully:
 
 | Name | Role |
 |---|---|
-| Jed Beltran | Developer |
 | Rosemarie Labiste | Developer |
-
-
----
-
-## 📄 License
-
-This project is for academic purposes only. All rights reserved by MotorPH and the course institution.
+| Jed Beltran | Developer |
