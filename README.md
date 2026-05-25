@@ -17,12 +17,12 @@ A Java Swing desktop application for managing employee payroll at MotorPH. Built
 
 ## ✨ Features
 
-- 🔍 **Search Employee** — Look up an employee by their Employee Number
-- 🧮 **Compute Payroll** — Calculate gross pay, deductions, and net pay per cutoff period
-- 🗓️ **Pay Coverage Selection** — Choose month (June–December) and cutoff (1st or 2nd)
-- 📄 **Payslip Display** — View a formatted payslip with complete deduction breakdown
-- 🧹 **Clear Fields** — Reset all inputs and results in one click
-- ⚠️ **Input Validation** — User-friendly error dialogs for missing or invalid inputs
+-  **Search Employee** — Look up an employee by their Employee Number
+-  **Compute Payroll** — Calculate gross pay, deductions, and net pay per cutoff period
+-  **Pay Coverage Selection** — Choose month (June–December) and cutoff (1st or 2nd)
+-  **Payslip Display** — View a formatted payslip with complete deduction breakdown
+-  **Clear Fields** — Reset all inputs and results in one click
+-  **Input Validation** — User-friendly error dialogs for missing or invalid inputs
 
 ---
 
