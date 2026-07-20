@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Build and run the MotorPH Employee Application.
-# Run from the motorph-app folder so the CSV files are found.
+# Run from the project's root folder so the CSV files are found.
 set -e
 
 cd "$(dirname "$0")"

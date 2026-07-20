@@ -5,7 +5,8 @@ processing semi-monthly payroll. Employee and attendance data are stored in
 CSV files, which the application reads on startup and writes back whenever
 records are added, updated, or deleted.
 
-**Quick start:** from the `motorph-app` folder, run `./run.sh` (Linux/macOS) or
+**Quick start:** from the project's root folder (the one containing `src/`,
+`run.sh`, and the CSV files), run `./run.sh` (Linux/macOS) or
 `run.bat` (Windows) to build and launch the app.
 
 ---
@@ -30,8 +31,9 @@ records are added, updated, or deleted.
 ---
 
 ## How to Run
-Run all commands **from inside the `motorph-app` folder**, because the app
-reads and writes the CSV files by relative name.
+Run all commands **from the project's root folder** (the folder that contains
+`src/`, the CSV files, and this `README.md`), because the app reads and writes
+the CSV files by relative name.
 
 The easiest way is the provided build-and-run script:
 
@@ -47,10 +49,9 @@ The easiest way is the provided build-and-run script:
 run.bat           :: Windows Command Prompt
 ```
 
-Or compile and run manually:
+Or compile and run manually (from the project's root folder):
 
 ```bash
-cd motorph-app
 javac -d out $(find src -name "*.java")
 java -cp out app.MotorPHApp
 ```
@@ -174,7 +175,7 @@ applied on the second cutoff):
 
 ## Project Structure
 ```
-motorph-app/
+<project root>/                         # the cloned/extracted repository folder
 ├── src/
 │   └── app/                            # Root package
 │       ├── MotorPHApp.java             # Application entry point (launches login)
@@ -243,7 +244,7 @@ The Salary Computation tab can also generate `MotorPH_PayrollSummary.csv`
 ---
 
 ## Notes
-- Run `java -cp out app.MotorPHApp` from within `motorph-app/` so the CSV files
+- Run `java -cp out app.MotorPHApp` from the project's root folder so the CSV files
   are found.
 - The application writes to the CSV files located in this folder.
 - No third-party dependencies are required.

@@ -4,9 +4,8 @@ Systematic test cases covering Features 1–5, GUI/navigation, and exception
 handling. Run each on a machine with a JDK, then record the **Actual Result**
 and mark **Status** as Pass or Fail.
 
-**How to launch:**
+**How to launch:** (from the project's root folder)
 ```bash
-cd motorph-app
 javac -d out $(find src -name "*.java")
 java -cp out app.MotorPHApp
 ```
